@@ -14,12 +14,12 @@ class App extends Component {
   }
   render(){
     const buttons = [
-      
+
     ];
     return (
       <div className="App">
         <input className = "result" type = "text" value = {this.state.current} />
-        
+        <p>yes</p>
 
       </div>
     );
